@@ -1,5 +1,18 @@
 //let nombre = prompt('Ingrese un nombre: ')
-
+// creando el calendario 
+const year = {
+    'Febrero':29,
+    'Marzo':31,
+    'Abril': 30,
+    'Mayo': 31,
+    'Junio': 30,
+    'Julio':31,
+    'Agosto':31,
+    'Septiembre':30,
+    'Octubre':31,
+    'Noviembre':30,
+    'Diciembre':31 
+}
 
 // Traigo la instancia del boton 
 let agregar_fila_btn = document.getElementById('crearFila')
@@ -13,10 +26,10 @@ crearFila = function() {
     
 
     // Insertamos una fila y con el table.row.length extraemos la longitud entera de la tabla
-    let newRow = tableDays.insertRow(tableDays.rows.length)
+    let newRow = tableDays.insertRow(0)
 
     // Creamos las celdas 
-    for (let i = 0 ; i < 7 ; i++){
+    for (let i = 0 ; i < year.Febrero ; i++){
         //agregamos la nueva celda
         let celda = newRow.insertCell(i)
 
@@ -28,6 +41,8 @@ crearFila = function() {
         celda.onclick = function(){
             cambiarHeader(this)
         }
+
+        
 
     }
     
