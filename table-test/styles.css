@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd; /* Bordes de la tabla */
+}
+
+td ,th {
+    border: 1px solid #ddd; /* Bordes de celdas y encabezados de columna */
+    padding: 8px;
+    text-align: left;
+}
