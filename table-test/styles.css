@@ -1,15 +1,26 @@
 body{
-    background-color: antiquewhite;
+    background-color: #161b22;
+    color: #ffff;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 table{
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd; /* Bordes de la tabla */
+    
+    
+    border: 2px solid ; 
+    color: #161b22;
+    
 }
 
 td ,th {
-    border: 1px solid #ddd; /* Bordes de celdas y encabezados de columna */
-    padding: 8px;
+    border: 1px solid ; /* Bordes de celdas y encabezados de columna */
+    padding: 10px;
     text-align: left;
+    background:  #e6edf3;
+    
+}
+
+.celdaClick {
+    background-color:#1f883d;
 }

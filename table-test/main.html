@@ -3,27 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table id="tablaDias">
+        
         <tr>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-            <th>Sabado</th>
-            <th>Domingo</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td onclick="cambiarHeader(this)"></td>
+            <td onclick="cambiarHeader(this)"></td>
+            <td onclick="cambiarHeader(this)"></td>
+            <td onclick="cambiarHeader(this)"></td>
+            <td onclick="cambiarHeader(this)"></td>
+            <td onclick="cambiarHeader(this)"></td>
+            <td onclick="cambiarHeader(this)"></td>
         </tr>
     </table>
+    <button id="crearFila">Agregar Fila</button>
 </body>
 </html>
