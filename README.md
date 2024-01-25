@@ -17,4 +17,5 @@ Proyecto personal  que me ayuda a tener un registro de los habitos que voy ingre
 > O. Deberia poder seleccionar el mes actual.
 >
 > O. Guardar un registro de los meses anteriores.
-
+>
+> O. Al pasar el cursor deberia decir la fecha que corresponda
